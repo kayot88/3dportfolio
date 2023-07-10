@@ -117,8 +117,6 @@ const Contact = () => {
           {loading ? "Sending..." : "Send"}
         </button>
       </form>
-
-      <EarthCanvas />
     </div>
   );
 };

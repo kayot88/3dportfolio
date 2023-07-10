@@ -18,6 +18,7 @@ import FeedbacksMobile from "./components/FeedbacksMobile";
 import AboutMobile from "./components/AboutMobile";
 import ExperienceMobile from "./components/ExperienceMobile";
 import ContactMobile from "./components/ContactMobile";
+import { stars } from "./assets";
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -51,8 +52,8 @@ const App = () => {
         {isMobile ? <WorksMobile /> : <Works />}
         {isMobile ? <FeedbacksMobile /> : <Feedbacks />}
         <div className="relative z-0">
+          {isMobile ? <img src={stars} alt="stars" /> : <StarsCanvas />}
           {isMobile ? <ContactMobile /> : <Contact />}
-          {!isMobile && <StarsCanvas />}
         </div>
       </div>
     </BrowserRouter>

@@ -5,6 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.jpg";
 import web from "./web.jpg";
 import github from "./github.png";
+import stars from "./stars.png";
 import nda from "./nda.jpg";
 
 import menu from "./menu.svg";
@@ -100,5 +101,6 @@ export {
   guy,
   computer,
   mobileBalls,
+  stars,
   next
 };
