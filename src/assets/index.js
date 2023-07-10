@@ -2,10 +2,10 @@
 import logo from "./ukraine.gif";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import mobile from "./mobile.jpg";
+import web from "./web.jpg";
 import github from "./github.png";
-import nda from "./nda.png";
+import nda from "./nda.jpg";
 
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -26,27 +26,31 @@ import nest from "./tech/nest.png";
 import angularjs from "./tech/angularjs.png";
 import next from "./tech/next.png";
 import threejs from "./tech/threejs.svg";
-import threejsintro from "./threejs.png";
-import aigenerator from "./aigenerator.png";
-import vueproject from "./vueproject.png";
-import nefflix from "./nefflix.png";
-import mobilestore from "./mobilestore.png";
-import beach from "./beach.png";
+import threejsintro from "./threejs.jpg";
+import aigenerator from "./aigenerator.jpg";
+import vueproject from "./vueproject.jpg";
+import nefflix from "./nefflix.jpg";
+import mobilestore from "./mobilestore.jpg";
+import beach from "./beach.jpg";
+import asher from "./asher.jpg";
+import guy from "./guy.jpg";
+import computer from "./computer.jpg";
+import mobileBalls from "./mobileBalls.png";
 
 import digicode from "./company/digicode.png";
 import shopify from "./company/shopify.png";
 import usdc from "./company/usdc.jpeg";
 import ukr from "./company/ukr.png";
 
-import sorbet_client from "./sorbet_client.png";
-import sorbet_bo from "./sorbet_bo.png";
-import sorbet_portal from "./sorbet_portal.png";
-import sorbet_dbrd from "./sorbet_dbrd.png";
-import sorbet_calc from "./sorbet_calc.png";
-import mogo_client from "./mogo_client.png";
-import mogo_bo from "./mogo_bo.png";
-import meta from "./meta.png";
-import carsrent from "./carsrent.png";
+import sorbet_client from "./sorbet_client.jpg";
+import sorbet_bo from "./sorbet_bo.jpg";
+import sorbet_portal from "./sorbet_portal.jpg";
+import sorbet_dbrd from "./sorbet_dbrd.jpg";
+import sorbet_calc from "./sorbet_calc.jpg";
+import mogo_client from "./mogo_client.jpg";
+import mogo_bo from "./mogo_bo.jpg";
+import meta from "./meta.jpg";
+import carsrent from "./carsrent.jpg";
 
 export {
   logo,
@@ -92,5 +96,9 @@ export {
   angularjs,
   mobilestore,
   beach,
+  asher,
+  guy,
+  computer,
+  mobileBalls,
   next
 };

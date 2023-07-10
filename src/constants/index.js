@@ -31,6 +31,8 @@ import {
   nest,
   angularjs,
   mobilestore,
+  asher,
+  guy,
   beach,
   next,
   ukr,
@@ -166,27 +168,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "We thank Roman for the wonderful job in developing and supporting our applications for 2 years. He was professional, excellent and hard working. Thanks to him, we were able to achieve our goals on time, and we look forward to continue working with him in the future.",
+    name: "Asher",
+    designation: "VP R&D",
+    company: "Sorbet",
+    image: asher,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I've never met a web developer who truly cares about their clients' success like Roman does. In addition to the development of the frontend, he took a part on backend side",
+    name: "Guy",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Simasti",
+    image: guy,
   },
 ];
 
