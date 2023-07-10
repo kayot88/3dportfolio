@@ -14,6 +14,10 @@ import {
 } from "./components";
 import TechMobile from "./components/TechMobile";
 import { WorksMobile } from "./components/WorksMobile";
+import FeedbacksMobile from "./components/FeedbacksMobile";
+import AboutMobile from "./components/AboutMobile";
+import ExperienceMobile from "./components/ExperienceMobile";
+import ContactMobile from "./components/ContactMobile";
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -40,15 +44,15 @@ const App = () => {
           <Navbar />
           <Hero isMobile={isMobile} />
         </div>
-        <About />
-        <Experience />
+        {isMobile ? <AboutMobile /> : <About />}
+        {isMobile ? <ExperienceMobile /> : <Experience />}
+
         {isMobile ? <TechMobile /> : <Tech />}
-        {/* {isMobile ? <WorksMobile /> : <Works />} */}
-        <Works />
-        <Feedbacks />
+        {isMobile ? <WorksMobile /> : <Works />}
+        {isMobile ? <FeedbacksMobile /> : <Feedbacks />}
         <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
+          {isMobile ? <ContactMobile /> : <Contact />}
+          {!isMobile && <StarsCanvas />}
         </div>
       </div>
     </BrowserRouter>
